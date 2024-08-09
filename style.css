@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  /* height: 100%; */
+  background: linear-gradient(180deg, #330867 0%, #30cfd0 100%);
+  font-family: 'Jura';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  margin: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stars {
+}
+
+.button {
+  border: none;
+  background-image: none;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  font-family: 'Jura';
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #eaf4ff;
+}
+
+.advice {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* flex: 1 0 auto; */
+  color: #ffffff;
+}
+
+.author {
+  margin: 0 40px 0;
+  padding-bottom: 20px;
+  color: #330867;
+}
+
+.phrase {
+  margin: 0;
+  padding: 40px;
+  /* min-height: 400px; */
+  max-width: 500px;
+  border-left: solid #330867;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+}
+
+.footer {
+  margin: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: #330867;
+}
